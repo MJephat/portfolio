@@ -37,8 +37,8 @@
     text-decoration: none;
     font-size: 0,9rem;
     font-weight: 500;
-    color:#000;
-    /* color: #fff; */
+    /* color:#000; */
+    color: #fff;
     position: relative;
     cursor: pointer;
 }

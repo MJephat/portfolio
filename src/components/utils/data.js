@@ -18,6 +18,7 @@ export const SKILLS = [
             {skill: "Express.js", percentage: "80%"},
             {skill: "python(flask/FastApi)", percentage: "65%"},
             {skill: "database/APIS", percentage: "75%"},
+            {skill: "Java/Spring Boot", percentage: "55%"}
 
         ],
     },
@@ -45,3 +46,45 @@ export const SKILLS = [
         ],
     },
 ];
+
+export const WORK_EXPERIENCE =[
+    {
+        title:"Full Stack Software Developer at PesaPrint",
+        date: "June 2024 - present",
+        responsibilities:[
+            // "Research, design, and implement software programs, maintaining existing systems to ensure quality and security standards.",
+            "Write and deploy clean, efficient code for scalability and maintainability.",
+            "Participate in code reviews to ensure high standards of code quality and readability.",
+            "Develop and test software tools, processes, and metrics for continuous improvement.",
+            "Collaborate with teams to identify areas for improvement and develop modifications.",
+            "Work on backend services and integrate RESTful APIs to enhance user experiences."  
+        ],
+
+    },
+    {
+        title:"Software Developer Intern at PesaPrint",
+        date: "Feb 2024 - May 2024",
+        responsibilities:[
+            "Write, test and maintain code under supervision",
+            "Work on front-end or back-end tasks as needed" ,
+            "Collaborate with team members on feature development and bug fixing.",
+            "Accept and implement feedback on your own code.",
+            "Participate in meetings to discuss progress and challenges.",
+            "Join agile meetings (stand-ups, sprint planning, retrospectives).",
+            "Track tasks using tools like Jira or Trello."
+        ],
+
+    },
+    {
+        title:"Junior/Trainee  SoftwareDeveloper at Moringa School",
+        date: "Feb 2023 - Nov 2023",
+        responsibilities:[
+            "Participated in full-stack training focusing on Python (Flask, FastAPI), JavaScript (React.js), and database management.",
+            "Gained hands-on experience building web applications with RESTful API consumption and creation.",
+            "Collaborated with mentors to develop real-world applications with maintainable and readable code.",
+            "Developed interactive user interfaces and integrated backend services for dynamic web applications.",
+            "Built and consumed RESTful APIs using Flask and FastAPI for seamless integration between frontend and backend.",  
+        ],
+
+    },
+]
