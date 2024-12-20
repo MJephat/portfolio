@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./skill.css"
 import { SKILLS } from '../utils/data';
 import SkillCard from '../skillCard/skillCard';
-import SkillInfoCard from '../Hero/SkillsInfoCard/SkillInfoCard';
+import SkillInfoCard from '../SkillsInfoCard/SkillInfoCard';
 
 const Skill = () => {
 
@@ -13,7 +13,7 @@ const Skill = () => {
     };
 
   return (
-    <section className='skills-container'>
+    <section className='skills-container' id='Skill'>
         <h5>Technical Proficiency</h5>
         <div className='skills-content'>
             <div className="skills">
