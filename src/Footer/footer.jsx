@@ -4,7 +4,9 @@ import "./footer.css"
 
 const Footer = () => {
   return(
-  <div className="footer">@ 2024 Fullstack Developer || Jephat</div>
+  <div className="footer">
+    © {new Date().getFullYear()} Fullstack Developer || Jephat
+  </div>
   )
 }
 
