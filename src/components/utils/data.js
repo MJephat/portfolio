@@ -49,8 +49,8 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE =[
     {
-        title:"Full Stack Software Developer at PesaPrint",
-        date: "June 2024 - present",
+        title:"Junior Software Developer at PesaPrint",
+        date: "June 2024 - Feb 2025",
         responsibilities:[
             // "Research, design, and implement software programs, maintaining existing systems to ensure quality and security standards.",
             "Write and deploy clean, efficient code for scalability and maintainability.",
